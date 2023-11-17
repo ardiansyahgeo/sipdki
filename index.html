@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset ="UTF-8" />
+<meta http-equiv="X-UA-Compatible"
+content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SURVEY SIP</title>
+<link rel="stylesheet" href="style.css" />
+
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+</style>
+</head>
+        
+<body>
+
+
+
+<div class="topnav">
+  <a class="active" href="JAKBAR/jakbar.html">JAKBAR</a>
+  <a href="JAKPUS/jakpus.html">JAKPUS</a>
+  <a href="JAKTIM/jaktim.html">JAKTIM</a>
+  <a href="https://docs.google.com/spreadsheets/d/1OynCTaSYAeWtSZaBAT1679_oovjuWHbrxBZ-aDhoUCw/edit?usp=sharing">LIST SIP</a>
+  <a href="HASIL SURVEY/hasilsurvey.html"">HASIL SURVEY SIP JAKBAR JAKTIM</a>
+  <a href="https://docs.google.com/spreadsheets/d/1OynCTaSYAeWtSZaBAT1679_oovjuWHbrxBZ-aDhoUCw/edit?usp=sharing">DATATABULAR SIP</a>
+
+</div>
+
+<div style="padding-left:16px">
+
+ 
+    <h1>INVENTARISASI LAHAN SIP DKI JAKARTA</h1>
+        <hr />
+        <p>
+          PENGGUNAAN WEBGIS:. 
+		  </p>
+		   
+		  
+		     <p>
+		  Untuk mengakses peta, pilih tab yang berada di atas page sesuai wilayah kerja masing-masing (Jaktim, Jakbar, Jakpus).  </p>
+		  <p>
+		  
+		     <p>
+		  Untuk melakukan pencarian titik sesuai kode nomor urut (misalkan: A12), gunakan tombol find (icon berbentuk teropong) dengan cara ditekan hingga muncul kolom. 
+		  Lalu ketikan kode nya dan pilih nomor urut titik yang akan dicari, hingga peta akan menunjukkan lokasi titik tersebut.   </p>
+		  
+		  <p>
+		 Untuk mendapatkan rute menuju lokasi titik, klik titik obyek tersebut pada peta hingga muncul kotak informasi, kemudian scroll ke bawah hingga muncul pilihan "arah". Klik tombol tulisan arah hingga aplikasi maps terbuka dan anda
+akan dinavigasikan oleh googlemaps menuju lokasi tersebut		 </p>
+
+	  <p>
+		 Klik tombol KOBO COLLECT dibawah ini untuk mengakses formulir survei </p>
+		  
+		  <p>
+         		 _________________________________________	
+				 
+		 </p>
+		   
+		     <title>Tombol dengan Latar Belakang Hijau</title>
+    <style>
+        .tombol-hijau {
+            background-color: green; /* Warna latar belakang hijau */
+            color: white; /* Warna teks putih */
+            padding: 10px 20px; /* Ruang di dalam tombol */
+            text-decoration: none; /* Menghilangkan garis bawah tautan */
+            border-radius: 5px; /* Sudut melengkung pada tombol */
+        }
+    </style>
+	
+</head>
+<body>
+    <a href="https://ee.kobotoolbox.org/t5mfGKn9" class="tombol-hijau">KOBO COLLECT</a>
+</body>
+		   
+
+	<p>
+         
+		 _________________________________________		 
+		 </p>
+  
+  <div class="wrapper">
+  <div class="slides">
+  <span id="slide-1"></span>
+  <span id="slide-2"></span>
+  <span id="slide-3"></span>
+  <span id="slide-4"></span>
+  <span id="slide-5"></span>
+  
+  <div class="images">
+  <img  src="IMAGE/img_snow.jpg"  style="width:100%;max-width:300px"/>
+  <img src="IMAGE/img_snow4.jpg"  style="width:100%;max-width:300px"/>
+  <img  src="IMAGE/img_snow2.jpg"  style="width:100%;max-width:300px"/>
+  <img  src="IMAGE/img_snow3.jpg"  style="width:100%;max-width:300px"/>
+  <img  src="IMAGE/img_snow4.jpg" style="width:100%;max-width:300px"/>
+</div>
+  </div>
+  
+  
+<!--navigasi-->
+<div class="navigation">
+<a href="#slide-1">1</a>
+<a href="#slide-2">2</a>
+<a href="#slide-3">3</a>
+<a href="#slide-4">4</a>
+<a href="#slide-5">5</a>
+  </div>
+  
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  <span class="close">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+
+
+
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myImg");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal.style.display = "none";
+}
+</script>
+  
+</div>
+
+</body>
+</html>

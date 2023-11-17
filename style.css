@@ -1,0 +1,37 @@
+.images {
+	display: flex;
+width: 100%;
+transition: 2s;
+}
+
+.images img {
+	width: 100%:
+}
+	
+.wrapper {
+	width: 350px;
+	margin: auto;
+	border-radius: 4px;
+	overflow: hidden;
+	}
+
+#slide-1:target ~ .images {
+	margin-left: -10px;
+}
+	
+#slide-2:target ~ .images {
+	margin-left: -80%;
+}
+
+#slide-3:target ~ .images {
+	margin-left: -170%;
+}
+	
+#slide-4:target ~ .images {
+	margin-left: -260%;
+}
+
+#slide-5:target ~ .images {
+	margin-left: -340%;
+}
+	
